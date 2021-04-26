@@ -1,0 +1,21 @@
+digraph G {
+	rankdir=LR
+	i
+	p
+	q
+	f
+	i -> p [label="λ,λ;#"]
+	p -> q [label="λ,λ;S"]
+	q -> q [label="a,a;λ
+b,b;λ
+z,z;λ
+λ,S;A 
+λ,A;a A a 
+λ,A;B 
+λ,B;b B b 
+λ,B;C 
+λ,C;z C 
+λ,C;z 
+"]
+	q -> f [label="λ,#;λ"]
+}
